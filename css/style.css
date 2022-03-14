@@ -12,6 +12,7 @@
 @import "components/badge.css";
 /* Screens */
 @import "screens/login.css";
+@import "screens/find.css";
 
 body {
     font-family: "Open Sans", sans-serif;
