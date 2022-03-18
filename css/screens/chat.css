@@ -76,5 +76,17 @@
 }
 
 .message-row--own{
-    
+    justify-content: flex-end;
+}
+
+.message-row--own .message__bubble{
+    background-color: var(--yellow);
+    border-top-right-radius: 0px;
+    border-top-left-radius: 15px;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+.message-row--own .message__info{
+    flex-direction: row-reverse;
 }
