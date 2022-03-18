@@ -1,0 +1,15 @@
+#chat-screen {
+    background-color: #abc1d1;
+    height: 11000vh;
+}
+
+#chat-screen .alt-header,
+#chat-screen .status-bar{
+    position: fixed;
+    width: 100%; /* 크기에 맞춤 */
+    box-sizing:border-box; /* 크기에 맞췄으나 덜 맞춰진 거 찐정리하게 만듬 */
+}
+
+#chat-screen .alt-header{
+    top: 10px;
+}
