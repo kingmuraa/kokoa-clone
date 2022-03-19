@@ -6,10 +6,25 @@
     margin-bottom: 15px;
     
 }
+
 .screen-header__title{
     font-size: 28px;
     font-weight: 600;
 }
+
 .screen-header__icons span {
     margin-left: 25px;
+}
+
+@keyframes rotateCog{
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover{
+    animation: rotateCog 1s linear infinite;
 }
